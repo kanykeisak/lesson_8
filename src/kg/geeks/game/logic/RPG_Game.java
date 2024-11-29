@@ -19,9 +19,9 @@ public class RPG_Game {
         Medic assistant = new Medic("Connor", 300, 5, 5);
         Hacker hacker = new Hacker("Joker", 300, 10);
         Reaper reaper = new Reaper("Jack", 100, 5);
+        Avenger avenger = new Avenger("Jack", 220, 10);
 
-
-        Hero[] heroes = {warrior1, doc, warrior2, magic, berserk, assistant, hacker, reaper};
+        Hero[] heroes = {warrior1, doc, warrior2, magic, berserk, assistant, hacker, reaper, avenger};
         printStatistics(boss, heroes);
 
         while (!isGameOver(boss, heroes)){

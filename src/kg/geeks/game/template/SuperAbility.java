@@ -6,5 +6,6 @@ public enum SuperAbility {
     HEAL,
     BLOCK_DAMAGE_AND_REVERT,
     STEAL_HEALTH,
-    SPECIAL_DAMAGE;
+    SPECIAL_DAMAGE,
+    TEAM_PROTECTION;
 }
